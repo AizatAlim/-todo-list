@@ -1,0 +1,76 @@
+html, body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Oswald", sans-serif;
+    
+
+}
+
+.wrapper{
+    max-width: 1440px;
+    margin: 0 auto;
+    justify-items: center;
+    margin-top: 200px;
+    row-gap: 40px;
+    display: grid;
+    grid-template-columns: 1fr;
+ 
+}
+
+.form {
+    padding: 15px;
+    border: 2px solid #b8b8b8;
+    border-radius: 5px;
+  }
+
+.new-todo {
+    display: block;
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 35px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+#input-todo {
+    width: 300px;
+    height: 40px;
+    margin-left: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 2px solid #b8b8b8;
+    cursor: text;
+}
+.add-todo {
+    display: block;
+    width: 300px;
+    height: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    border: 2px solid gray;
+    border-radius: 5px;
+    background-color: #d0d0d0;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.todo-list {
+    border: 2px solid #b8b8b8;
+    margin: 0px;
+    padding: 5px;
+    width: 300px;
+    border-radius: 5px;
+    height: 40px;    
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+.todo-list-item {
+    margin-bottom: 15px;
+    background-color: #d0d0d0;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+}
